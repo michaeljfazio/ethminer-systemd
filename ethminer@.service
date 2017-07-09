@@ -1,0 +1,17 @@
+[Unit]
+Description=Starfish Prime Ethereum Miner Process
+Requires=multi-user.target
+After=multi-user.target
+
+[Service]
+User=starfish
+Type=simple
+WorkingDirectory=/home/starfish/
+PermissionsStartOnly=true
+ExecStart=/usr/bin/ethminer --farm-recheck 10000 --cuda-parallel-hash 4 --cuda-devices %i -S asia1.ethermine.org:4444 -FS asia1.ethermine.org:14444 -U -O 33a0c4aa3e7cc0b060613ad1ca8197dc79dab6bc.starfish-1
+ExecReload=/bin/kill -HUP $MAINPID
+ExecStop=/bin/kill -15 $MAINPID
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
