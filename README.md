@@ -51,6 +51,6 @@ If you want see the output of the mining processes you can run the
 That's it folks. You should now be mining with a stable setup that restarts on
 failure.
 
-| Tips :thumbsup:                          |
-| :--------------------------------------- |
-| 33a0c4aa3e7cc0b060613ad1ca8197dc79dab6bc |
+| Tips :thumbsup:                            |
+| :----------------------------------------- |
+| 0x7735F34120d2a33815FE5503b1B10b9e126E935C |
