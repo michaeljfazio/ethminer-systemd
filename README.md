@@ -52,5 +52,5 @@ That's it folks. You should now be mining with a stable setup that restarts on
 failure.
 
 | Tips :thumbsup:                          |
-| ---------------------------------------- |
+| :--------------------------------------- |
 | 33a0c4aa3e7cc0b060613ad1ca8197dc79dab6bc |
